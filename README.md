@@ -96,7 +96,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ## 📊 Flowchart
 
-![ANAV Flowchart](Media/anav_flowchart.png)  
+![ANAV Flowchart](Media/anav_flowchart.jpg)  
 > _Flowchart showing the autonomous mission sequence_
 
 ---
