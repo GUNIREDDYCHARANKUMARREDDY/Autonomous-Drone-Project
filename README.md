@@ -32,7 +32,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ---
 
-## 🧠 Architecture Summary
+##  Architecture Summary
 
 ### ⚙️ Hardware Components
 | Component                  | Description                              |
@@ -51,7 +51,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ---
 
-## 🧩 System Integration
+##  System Integration
 
 - **Communication Protocols**:
   - MAVLink (USB-TTL between Raspberry Pi and CubePilot)
@@ -66,20 +66,20 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
   - Emergency auto-landing
 ---
 
-## 📊 Flowchart
+##  Flowchart
 
 ![ANAV Flowchart](Media/anav_flowchart.jpg)  
 > Autonomous Mode Flowchart with Sensor Integration
 
 ---
 
-## 🛠️ Software Architecture
+##  Software Architecture
 
 - **OS**: Raspberry Pi OS (64-bit)
 - **Libraries**: MAVROS, MAVSDK, DroneKit, ROS Noetic
 - **Control Flow**:
   - Single auto-start command → Takeoff → Hover → Land
-  - Loiter mode enabled using Optical Flow
+  - Loiter mode is enabled using Optical Flow
 - **Flight Modes**:  
   - `OFFBOARD` (via MAVROS)  
   - `ALTHOLD`, `LOITER` for stability in GPS-denied environments  
@@ -88,7 +88,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ---
 
-## 📈 Testing & Results
+##  Testing & Results
 
 | Test | Outcome |
 |------|---------|
@@ -101,20 +101,20 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ---
 ### 🎥 Demo Video
-![Project Demo](Media/FINAL.mp4)  
+![Project Demo](Media/FINAL.mp4)    
 
 
-## 🧪 Achievements & Status
+##  Achievements & Status
 
-- ✅ Successfully completed **Round 1**
-- ✅ Reached **Round 2** (Qualification)
-- ✅ Implemented **Autonomous Takeoff**, **Hover**, **Smooth Landing**
-- 🔄 Emergency Handling Partially Implemented
-- ❌ Did not qualify for Round 3
+-  Successfully completed **Round 1**
+-  Reached **Round 2** (Qualification)
+-  Implemented **Autonomous Takeoff**, **Hover**, **Smooth Landing**
+-  Emergency Handling Partially Implemented
+-  Did not qualify for Round 3
 
 ---
 
-## 🛠️ Future Work
+##  Future Work
 
 - Add full SLAM & obstacle avoidance
 - Extend flight time and payload handling
