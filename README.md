@@ -7,10 +7,11 @@
 
 ## 👨‍🔧 Developed By
 **G.Pullaiah College Of Engineering And Technology**
-**MSMF Space Research Club Students**
+*MSMF Space Research Club Students*
 
 *GUNI REDDY CHARAN KUMAR REDDY*  
-Role: *Embedded Systems & Electronics Engineer*  
+I am a core team member of the MSMF Space Research Club, currently pursuing B-Tech Final year at G.Pullaiah College of Engineering and Technology. As part of the Autonomous Drone development team for the ISRO-U 2025 Drone Challenge.
+Role: *Embedded Systems & Hardware integration*  
 Responsibilities:
 - Embedded Wiring & Sensor Integration  
 - Wired Communication Protocols (UART, USB-TTL, Telemetry)  
