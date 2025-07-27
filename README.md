@@ -57,7 +57,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
   - MAVLink (USB-TTL between Raspberry Pi and CubePilot)
   - Telemetry (UART) for real-time GCS monitoring
 - **Mission Software**:
-  - [Mission Planner](https://ardupilot.org/planner/)
+  - [ArduPilot](https://ardupilot.org/planner/)
 - **Autonomous Control**:
   - Python scripts running on Raspberry Pi
   - Used MAVROS and DroneKit for ROS-based flight command automation
