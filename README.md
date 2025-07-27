@@ -20,7 +20,7 @@ Responsibilities:
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 It is a quadrotor drone developed to perform **fully autonomous flight operations in GPS-denied indoor environments**.  
 It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Round 2** where it successfully demonstrated:
