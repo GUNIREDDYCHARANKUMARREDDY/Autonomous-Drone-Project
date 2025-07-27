@@ -64,6 +64,12 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 - **Failsafes**:
   - Battery monitoring
   - Emergency auto-landing
+---
+
+## 📊 Flowchart
+
+![ANAV Flowchart](Media/anav_flowchart.jpg)  
+> Autonomous Mode Flowchart with Sensor Integration
 
 ---
 
@@ -92,12 +98,6 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 | 10s Autonomous Hover | Success with ALTHOLD mode |
 | Final Test (30s Hover + Loiter Landing) | Fully successful |
 
----
-
-## 📊 Flowchart
-
-![ANAV Flowchart](Media/anav_flowchart.jpg)  
-> Autonomous Mode Flowchart with Sensor Integration
 
 ---
 
