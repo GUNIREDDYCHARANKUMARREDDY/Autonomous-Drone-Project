@@ -2,7 +2,7 @@
 
 ### A project by **Team AetherX**  
 *Participant in ISRO-U Autonomous Drone Challenge 2025*  
-
+![ISRO](Media/ISRO-U.png)  
 ---
 
 ## 👨‍🔧 Developed By
@@ -97,7 +97,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 ## 📊 Flowchart
 
 ![ANAV Flowchart](Media/anav_flowchart.jpg)  
-> _Flowchart showing the autonomous mission sequence_
+> Autonomous Mode Flowchart with Sensor Integration
 
 ---
 
