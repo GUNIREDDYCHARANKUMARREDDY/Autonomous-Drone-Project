@@ -1,4 +1,4 @@
-# 🛸 Autonomous Quadcopter Drone
+# 🚁 Autonomous Quadcopter Drone
 
 ### A project by **Team AetherX**  
 *Participant in ISRO-U Autonomous Drone Challenge 2025*  
