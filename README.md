@@ -48,7 +48,11 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 | Altitude Sensor           | Barometer in CubePilot                    |
 | Position Sensor           | HereFlow Optical Flow Sensor              |
 | Communication             | Telemetry (UART), USB-TTL, MAVLink        |
+---
 
+## System Architecture
+
+![System Architecture](Media/system_architecture.jpg)  
 ---
 
 ##  System Integration
@@ -64,12 +68,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 - **Failsafes**:
   - Battery monitoring
   - Emergency auto-landing
----
 
-##  Flowchart
-
-![ANAV Flowchart](Media/anav_flowchart.jpg)  
-> Autonomous Mode Flowchart with Sensor Integration
 
 ---
 
@@ -85,7 +84,12 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
   - `ALTHOLD`, `LOITER` for stability in GPS-denied environments  
 - **Failsafe Scripts**:  
   - Safe descent & landing if anomalies detected
+---
 
+##  Flowchart
+
+![ Flowchart](Media/anav_flowchart.jpg)  
+> Autonomous Mode Flowchart with Sensor Integration
 ---
 
 ##  Testing & Results
