@@ -1,16 +1,16 @@
 # 🛸 Autonomous Quadcopter Drone
 
 ### A project by **Team AetherX**  
-*Participant in ISRO-U Autonomous Drone Challenge 2025*
+*Participant in ISRO-U Autonomous Drone Challenge 2025*  
 
 ---
 
 ## 👨‍🔧 Developed By
-**G.Pullaiah College Of Engineering And Technology**
+**G.Pullaiah College Of Engineering And Technology**  
 *MSMF Space Research Club Students*
 
 *GUNI REDDY CHARAN KUMAR REDDY*  
-I am a core team member of the MSMF Space Research Club, currently pursuing B-Tech Final year at G.Pullaiah College of Engineering and Technology. As part of the Autonomous Drone development team for the ISRO-U 2025 Drone Challenge.
+I am a core team member of the MSMF Space Research Club, currently pursuing B-Tech Final year at G.Pullaiah College of Engineering and Technology. As part of the Autonomous Drone development team for the ISRO-U 2025 Drone Challenge.  
 Role: *Embedded Systems & Hardware integration*  
 Responsibilities:
 - Embedded Wiring & Sensor Integration  
