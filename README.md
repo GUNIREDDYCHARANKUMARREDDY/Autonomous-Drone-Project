@@ -63,7 +63,6 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
   - Used MAVROS and DroneKit for ROS-based flight command automation
 - **Failsafes**:
   - Battery monitoring
-  - Communication link loss detection
   - Emergency auto-landing
 
 ---
