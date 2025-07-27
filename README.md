@@ -121,5 +121,9 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 - Add computer vision for dynamic environments
 
 ---
-
+##🧑‍💻About Me:
+Aspiring Embedded System Developer, Drone Technology & IoT Enthusiast
+**GUNI REDDY CHARAN KUMAR REDDY**  
+📧 charanreddy2908@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/guni-reddy-charan-kumar-reddy-ba2414240)
 
