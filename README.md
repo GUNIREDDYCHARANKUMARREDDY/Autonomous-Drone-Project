@@ -1,7 +1,7 @@
-# 🚁 Autonomous Quadcopter Drone Without GPS
+# 🚁 Autonomous Quadcopter Drone for GPS-Denied Environments – IRoC-U 2025
 
 ### A project by **Team AetherX**  
-*Participant in ISRO-U Autonomous Drone Challenge 2025*  
+*Participant in ISRO Robotics Challenge 2025 - IRoC-U 2025 *  
 ![ISRO](Media/ISRO-U.png)  
 ---
 
