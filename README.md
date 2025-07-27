@@ -2,7 +2,6 @@
 
 ### A project by **Team AetherX**  
 *Participant in ISRO Robotics Challenge 2025 - IRoC-U 2025*  
-
 ![ISRO](Media/ISRO-U.png)  
 ---
 
