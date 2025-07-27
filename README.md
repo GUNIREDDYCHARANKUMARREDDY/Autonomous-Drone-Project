@@ -1,4 +1,4 @@
-# 🚁 Autonomous Quadcopter Drone
+# 🚁 Autonomous Quadcopter Drone Without GPS
 
 ### A project by **Team AetherX**  
 *Participant in ISRO-U Autonomous Drone Challenge 2025*  
@@ -99,9 +99,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 | Final Test (30s Hover + Loiter Landing) | Fully successful |
 
 
----
-### 🎥 Demo Video
-![Project Demo](Media/FINAL.mp4)    
+---   
 
 
 ##  Achievements & Status
