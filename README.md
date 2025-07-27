@@ -101,7 +101,7 @@ It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Ro
 
 ---
 ### 🎥 Demo Video
-![Project Demo](Media/Final.jpg)  
+![Project Demo](Media/FINAL.mp4)  
 
 
 ## 🧪 Achievements & Status
