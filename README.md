@@ -1,51 +1,122 @@
-# Autonomous-Drone-Project
-ISRO IRoC-U 2025 submission by Team AtherX (Autonomous Drone)
+# 🛸 Autonomous Quadcopter Drone
 
-## 🏁 Project Highlights
-### ✅ Round 1: Proposal Phase
-- Designed drone architecture with sensor integration and autonomy
-- Submitted detailed proposal with mission design
-- **Result:** Shortlisted among top teams across India
-- ✅ Shortlisted to Round 2 of IRoC-U 2025
-
-### ✅ Round 2: Functional Demo
-- Successfully demonstrated:
-  - Autonomous Takeoff
-  - GPS-based Hover
-  - Autonomous Landing
-  - Emergency Landing
-
-- ✅ Demonstrated: Autonomous takeoff, hover, landing & emergency landing
-- 🚫 Not qualified for final round (terrain navigation with SLAM)
-
-
-## 📦 Components Used
-
-| Component                         | Description                                          |
-|----------------------------------|------------------------------------------------------|
-| Emax 935kV Motors                | Brushless quadcopter lift                           |
-| DJI F450 Frame                   | Lightweight drone frame                             |
-| Carbon Fiber Propellers          | Durable and high thrust                             |
-| Raspberry Pi 5                   | AI vision & control logic                           |
-| 5200mAh 4S LiPo Battery          | 15+ min flight time                                 |
-| Hobbywing 40A ESCs               | Motor speed control                                 |
-| TFmini-S LiDAR                   | Short-range obstacle detection                      |
-| Camera Module 3                  | Real-time terrain feed                              |
-| HereFlow Sensor                  | Optical flow + rangefinder                          |
-| CubePilot Orange FC              | Pixhawk-based flight controller                     |
-| RPLiDAR A1M8 (planned)           | 360° SLAM & mapping support                         |
+### A project by **Team AetherX**  
+*Participant in ISRO-U Autonomous Drone Challenge 2025*
 
 ---
 
-## 🧠 System Overview
+## 👨‍🔧 Developed By
+**G.Pullaiah College Of Engineering And Technology**
+**MSMF Space Research Club Students**
 
-- **Flight Control:** CubePilot Orange (Pixhawk-compatible)
-- **Onboard Computer:** Raspberry Pi 5
-- **Software:** MAVLink, Python, OpenCV, QGroundControl
-- **Autonomy Stack:** GPS + barometer + AI logic
-- **Failsafe:** Battery & GPS-based emergency landing
+*GUNI REDDY CHARAN KUMAR REDDY*  
+Role: *Embedded Systems & Electronics Engineer*  
+Responsibilities:
+- Embedded Wiring & Sensor Integration  
+- Wired Communication Protocols (UART, USB-TTL, Telemetry)  
+- Mission Planner Configuration & Tuning  
+- Autonomous Flight Scripting with MAVLink (Python)  
 
----![WhatsApp Image 2025-07-27 at 11 34 34_cb44e3e1](https://github.com/user-attachments/assets/c19d8d9c-9f6f-4c86-b566-7d0c7ac41199)
+---
 
+## 🚀 Project Overview
+
+It is a quadrotor drone developed to perform **fully autonomous flight operations in GPS-denied indoor environments**.  
+It was designed and built for the **ISRO-U 2025 Drone Challenge**, reaching **Round 2** where it successfully demonstrated:
+
+- Autonomous Takeoff  
+- Hovering for 30 seconds  
+- Controlled Landing  
+- Emergency landing (partial implementation)
+
+---
+
+## 🧠 Architecture Summary
+
+### ⚙️ Hardware Components
+| Component                  | Description                              |
+|---------------------------|------------------------------------------|
+| Frame                     | DJI F450                                  |
+| Motors                    | Emax 935kV Brushless Motors               |
+| ESCs                      | Hobbywing 40A                             |
+| Propellers                | Carbon Fiber                              |
+| Battery                   | 5200mAh 4S LiPo                           |
+| Flight Controller         | CubePilot Orange                          |
+| Companion Computer        | Raspberry Pi 5                            |
+| Camera                    | Raspberry Pi Camera Module 3              |
+| Altitude Sensor           | Barometer in CubePilot                    |
+| Position Sensor           | HereFlow Optical Flow Sensor              |
+| Communication             | Telemetry (UART), USB-TTL, MAVLink        |
+
+---
+
+## 🧩 System Integration
+
+- **Communication Protocols**:
+  - MAVLink (USB-TTL between Raspberry Pi and CubePilot)
+  - Telemetry (UART) for real-time GCS monitoring
+- **Mission Software**:
+  - [Mission Planner](https://ardupilot.org/planner/)
+- **Autonomous Control**:
+  - Python scripts running on Raspberry Pi
+  - Used MAVROS and DroneKit for ROS-based flight command automation
+- **Failsafes**:
+  - Battery monitoring
+  - Communication link loss detection
+  - Emergency auto-landing
+
+---
+
+## 🛠️ Software Architecture
+
+- **OS**: Raspberry Pi OS (64-bit)
+- **Libraries**: MAVROS, MAVSDK, DroneKit, ROS Noetic
+- **Control Flow**:
+  - Single auto-start command → Takeoff → Hover → Land
+  - Loiter mode enabled using Optical Flow
+- **Flight Modes**:  
+  - `OFFBOARD` (via MAVROS)  
+  - `ALTHOLD`, `LOITER` for stability in GPS-denied environments  
+- **Failsafe Scripts**:  
+  - Safe descent & landing if anomalies detected
+
+---
+
+## 📈 Testing & Results
+
+| Test | Outcome |
+|------|---------|
+| Motor & ESC Calibration | Fixed yaw instability, balanced thrust |
+| Altitude Hold Mode | Stable hover using LiDAR & PID tuning |
+| Initial Autonomous Takeoff | Achieved, but required script corrections |
+| 10s Autonomous Hover | Success with ALTHOLD mode |
+| Final Test (30s Hover + Loiter Landing) | Fully successful |
+
+---
+
+## 📊 Flowchart
+
+![ANAV Flowchart](Media/anav_flowchart.png)  
+> _Flowchart showing the autonomous mission sequence_
+
+---
+
+## 🧪 Achievements & Status
+
+- ✅ Successfully completed **Round 1**
+- ✅ Reached **Round 2** (Qualification)
+- ✅ Implemented **Autonomous Takeoff**, **Hover**, **Smooth Landing**
+- 🔄 Emergency Handling Partially Implemented
+- ❌ Did not qualify for Round 3
+
+---
+
+## 🛠️ Future Work
+
+- Add full SLAM & obstacle avoidance
+- Extend flight time and payload handling
+- Add computer vision for dynamic environments
+
+---
 
 
